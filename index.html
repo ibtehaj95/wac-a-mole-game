@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Mole</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Whack-a-Mole</h1>
+    <h3>Try clicking on the randomly-appearing mole as many times as possible before the time runs out</h3>
+    <div class="main-container">
+        <div class="game-container">
+            <div class="box" id="box-0"></div>
+            <div class="box" id="box-1"></div>
+            <div class="box" id="box-2"></div>
+            <div class="box" id="box-3"></div>
+            <div class="box" id="box-4"></div>
+            <div class="box" id="box-5"></div>
+            <div class="box" id="box-6"></div>
+            <div class="box" id="box-7"></div>
+            <div class="box" id="box-8"></div>
+        </div>
+        <div class="score-container">
+            <div class="scoreboard">
+                <div class="time">
+                    <h2 class="score-text-panels" id="score-time-title">Time Left:</h2>
+                    <h2 class="score-num-panels" id="score-time-number">60</h2>
+                </div>
+                <div class="score">
+                    <h2 class="score-text-panels" id="score-score-title">Score:</h2>
+                    <h2 class="score-num-panels" id="score-score-number">0</h2>
+                </div>
+                <div class="record">
+                    <h2 class="score-text-panels" id="score-record-title">Record:</h2>
+                    <h2 class="score-num-panels" id="score-record-number">0</h2>
+                </div>
+            </div>
+            <div class="buttons-container">
+                <div class="button" id="play_button">
+                    <div class="img-div" id="play_btn_div">
+                        <img src="./assets/play_button.png" width="50%" alt="play_button">
+                    </div>
+                    <h2>Start Game</h2>
+                </div>
+                <div class="button" id="reload_button">
+                    <div class="img-div" id="reload_btn_div">
+                        <img src="./assets/reload_button.png" width="50%" alt="reload_button">
+                    </div>
+                    <h2>Reload Page</h2>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

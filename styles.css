@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(254, 254, 202);
+}
+
+h1{
+    text-align: center;
+    color: rgb(96, 135, 42);
+    font-size: 200%;
+}
+
+h3{
+    text-align: center;
+    color: rgb(96, 135, 42);
+}
+
+.button h2{
+    margin: 0;
+    color: rgb(96, 135, 42);
+    text-align: center;
+}
+
+.img-div{
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(225, 195, 48);
+    width: 13.5rem;
+    height: 12rem;
+}
+
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.main-container{
+    display: flex;
+}
+
+.score-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-top: 1rem;
+}
+
+.buttons-container{
+    display: flex;
+    padding: 1rem;
+}
+
+.score-text-panels{
+    text-align: center;
+    margin: 0;
+    color: rgb(74, 103, 33);
+}
+
+.score-num-panels{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+    color: rgb(198, 133, 27);
+}
+
+.buttons-container img{
+    width: 50%;
+}
+
+.button{
+    width: 50%;
+}
+
+.mole{
+    /* background-color: rgb(167, 91, 67); */
+    background-image: url(./assets/mole.png);
+    background-size: cover;
+}
+
+@media screen and (max-width: 900px) {
+    .main-container{
+        display: block;
+    }
+
+    .score-container{
+        display: flex;
+        flex-direction: column;
+        font-size: 70%;
+        margin: 0;
+    }
+
+    .game-container{
+        display: grid;
+    }
+
+    .box{
+        width: 5.75rem;
+        height: 5rem;
+    }
+
+    .scoreboard{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
