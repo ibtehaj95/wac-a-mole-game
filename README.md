@@ -1,5 +1,5 @@
 # wac-a-mole-game
-Tried making a copy of the retro-game called Wac-a-Mole. Play it at https://ibtehajdoesdevelopment.on.drv.tw/webdev/Games/wac-a-mole/.
+Tried making a copy of the retro-game called Wac-a-Mole. Play it at https://ibtehajdoesdevelopment.on.drv.tw/webdev/games/wac-a-mole/.
 
 The game can also be enjoyed on most phones (tested on Firefox and Chrome).
 
